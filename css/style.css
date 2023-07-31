@@ -1,0 +1,570 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #000000;
+}
+
+a {
+    text-decoration-line: none;
+    color: #969696;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__back {
+    background-color: black;
+}
+
+.header__top {
+   color: #969696;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header__top-number {
+    margin: 14px 0 14px 0;
+}
+
+.header__top-in {
+    display: flex;
+}
+
+.header__top-text {
+    padding-left: 10px;
+}
+
+.header__centre {
+    background: #0f0f0f;
+}
+
+.header__centre-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__centre-item-list {
+    display: flex;
+}
+
+.header__centre-logo-img {
+    padding: 15px 30px 15px 30px;
+}
+
+.header__centre-items {
+    margin: 20px 15px 20px 15px;
+    color: #969696;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+.header__content {
+    min-height: 685px;
+    background-image: url('../images/Rectangle 3.jpg' );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header__content-logo {
+    padding: 90px 0 80px 0;
+}
+
+.header__content-text {
+    min-width: 96px;
+}
+
+.new__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new__list {
+    color: #fff;
+}
+
+.new__item-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: -60px;
+    padding-right: 110px;
+    margin-top: -100px;
+    min-height: 730px;
+    min-width: 1040px;
+}
+
+.new__title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 420px;
+    margin-top: 70px;
+}
+
+.new__title-1 {
+    font-family: 'Playfair Display', serif;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.new__items {
+    padding-left: 50px;
+}
+
+.new__item-img-back {
+    background-color: #191B1C;
+    min-height: 325px;
+    display: flex;
+    align-items: center;
+}
+
+.new__items h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.new__nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 520px;
+    min-height: 650px;
+    background-image: url('../images/Rectangle 8.jpg');
+    background-repeat: no-repeat;
+    margin-left: -60px;
+    margin-top: -220px;
+    color: #fff;
+}
+
+.new__nav-item {
+    padding: 12px 28px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.new__nav-title {
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    padding-top: 400px;
+    padding-left: 110px;
+}
+
+.new__nav-item {
+    margin-bottom: 100px;
+    margin-left: 210px;
+}
+
+.new__nav-item:hover {
+    background-color: #fff;
+    color: #000000;
+    transition: all 0.3s;
+}
+
+.new__nav-line {
+    display: none;
+}
+
+.colection__inner {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.colection__text {
+    max-height: 173px;
+    max-width:473px;
+}
+
+.colection__text1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;  
+    word-break: break-all;
+}
+
+.colection__img {
+    margin-top: -120px;
+}
+
+.colection__right {
+    min-width: 600px;
+    min-height: 600px;
+}
+
+.colection__title {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    padding-left: 70px;
+}
+
+.colection__line {
+    padding-left: 175px;
+}
+
+.colection__text {
+    margin-left: 50px;
+}
+
+.colection__text1 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.colection__button {
+    min-width:311px;
+    min-height:47px;
+    margin-top: 61px;
+    margin-left: 155px;
+}
+
+.colection__button1 {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    margin-top: 61px;
+    border: 1px solid #fff;
+}
+
+.colection__button1:hover {
+    background-color: #fff;
+    color: #000000;
+    transition: all 0.3s;
+}
+
+.new-item__title {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 120px;
+    padding-left: 420px;
+}
+
+.new-item__line {
+   padding: 40px 550px 81px 550px;
+}
+
+.new-item {
+    color: #fff;
+}
+
+.new-item__column1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 23px;
+}
+
+.new-item__column2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 23px;
+    margin-bottom: 150px;
+}
+
+.column1__item-back {
+    background-color: #191B1C;
+    display: flex;
+    align-items: center;
+    padding: 55px 22px 56px 23px;
+    min-width: 260px;
+    min-height: 325px;
+}
+
+.column2__item-back {
+    background-color: #191B1C;
+    display: flex;
+    align-items: center;
+    padding: 55px 22px 56px 23px;
+    min-width: 260px;
+    min-height: 325px;
+}
+
+.column1__title, .column2__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top:25px;
+    margin-bottom: 10px;
+}
+
+.column2__price, .column1__price {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.brands {
+    background-color: #0F0F0F;
+    color: #fff;
+    
+}
+
+.brands__title1 {
+    text-transform: uppercase;
+    padding-left: 473px;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    padding-top: 60px;
+}
+
+.brands__line {
+    padding-left: 555px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.brands__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+    padding-bottom: 60px;
+}
+
+.brands__logo {
+    min-height: 94px;
+    min-width: 255px;
+    padding-right: 30px;
+}
+
+.footer {
+    background-image: url('../images/Rectangle 15.jpg');
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 400px;
+    max-height: 400px;
+    min-width: 1400px;
+    margin-top: -20px;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 800px;
+    min-height: 800px;
+}
+
+
+
+.footer__content-about {
+    display: inline-block;
+    min-height: 260px;
+    min-width:360px;
+    max-height: 260px;
+    max-width:360px;
+    word-break: break-all;
+}
+
+.footer__about-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    padding-top: 80px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.footer__about-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding-bottom: 101px;
+}
+
+.footer__content-categories {
+    display: inline-block;
+    min-height: 600px;
+    min-width: 300px;
+    max-width: 400px;
+    max-height: 600px;
+    word-break: break-all;
+    padding-left: 50px;
+}
+
+.footer__categories-title1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    padding-top: -100px;
+}
+
+.footer__categories-title {
+    padding-left: 50px;
+}
+
+.footer__categories-item-list {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;  
+}
+
+
+
+.footer__content-mailing {
+    display: inline-block;
+    min-height: 260px;
+    min-width: 350px;
+    max-height: 260px;
+    max-width: 350px;
+    word-break: break-all;
+}
+
+.footer__categories-items1 {
+    background-color: #000000;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    
+}
+
+.footer__categories-items2 {
+    background-color: #000000;
+    padding: 15px 25px; 
+    margin-bottom: 20px;
+}
+
+.footer__categories-items3 {
+    background-color: #000000;
+    padding: 15px 25px; 
+    margin-bottom: 20px;
+}
+
+.footer__categories-items4 {
+    background-color: #000000;
+    padding: 15px 25px; 
+}
+
+.footer__categories-items5 {
+    background-color: #000000;
+    padding: 15px 25px; 
+}
+
+.footer__content-mailing {
+   margin-left: 70px;
+}
+
+.footer__mailing-title1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.footer__mailing-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding: 24px 0;
+}
+
+.footer__mailing-feedback {
+    display: flex;
+    align-items: center;
+}
+
+.footer__mailing-button {
+    background-color: #000000;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    padding: 10px 20px 10px 20px;
+}
+
+.footer__mailing-button:hover {
+    background-color: #fff;
+    color: #000000;
+    transition: all 0.3s;
+}
+
+.footer__mailing-form1 {
+    border-radius: 0;
+    background-color: #fff;
+    opacity: 40%;
+    min-height: 43px;
+    min-width: 200px;
+}
+
+.footer__mailing-form1 {
+    color: #fff;
+    padding-left: 5px;
+
+}
+
+.footer__bottom {
+    margin-top: -390px;
+    max-width:1920px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.footer__bottom-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__bottom-credits2 p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;   
+}
+
+.footer__bottom-link {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em; 
+}
